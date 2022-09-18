@@ -1,0 +1,8 @@
+#loops
+#to calculate the sum of cubes of first N natural numbers
+
+n=int(input("enter a number:"))
+sum=0
+for e in range(0,n+1,1):
+    sum=sum+e**3
+print('the sum of cubes of first n natural numbers is:',sum)
