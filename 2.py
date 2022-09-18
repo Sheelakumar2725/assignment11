@@ -4,6 +4,5 @@
 n=int(input("enter a number:"))
 sum=0
 for e in range(0,n+1,1):
-    k=e*e
-    sum=sum+k
+     sum=sum+e**2
 print('the sum of squares of first n natural numbers is:',sum)
